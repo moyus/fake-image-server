@@ -7,7 +7,7 @@ Use the `src` attribute to load fake svg images.
 ```
 <img src="https://fakeimg.moyu.io/300">
 <img src="https://fakeimg.moyu.io/300/200">
-<img src="https://fakeimg.moyu.io/300/200?bg=red&color=#fff">
+<img src="https://fakeimg.moyu.io/300/200?bg=000&color=fff">
 <img src="https://fakeimg.moyu.io/300?text=Hello&size=40">
 ```
 

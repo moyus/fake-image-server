@@ -11,19 +11,19 @@ app.get('/', function (req, res) {
 function main(req, res) {
   const width = req.params.width ? parseInt(req.params.width) : 200;
   const height = req.params.height ? parseInt(req.params.height) : width;
-  const bg = req.query.bg || '#cccccc';
-  const color = req.query.color || '#909090';
+  const bg = req.query.bg || 'cccccc';
+  const color = req.query.color || '909090';
   const text = req.query.text || `${width}x${height}`;
   const fontSize = req.query.size || 30;
 
   const canvas = createCanvas(width, height, 'svg');
   const ctx = canvas.getContext('2d');
-  ctx.fillStyle = bg;
+  ctx.fillStyle = `#${bg}`;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   ctx.font = `${fontSize}px Helvetica`;
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillStyle = color;
+  ctx.fillStyle = `#${color}`;
 
   ctx.fillText(text, canvas.width / 2, canvas.height / 2);
 
