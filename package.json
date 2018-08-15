@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "repository": "https://github.com/moyus/fake-image-server.git",
-  "author": "moyus <moyuboy@gmail.com>",
+  "author": "moyu <moyuboy@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "nodemon app.js"
