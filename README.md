@@ -5,10 +5,10 @@ It's hard to choose suitable image placeholders when you are working on a front-
 ## How to use
 Use the `src` attribute to load fake svg images.
 ```
-<img src="https://fakeimg.moyu.io/300">
-<img src="https://fakeimg.moyu.io/300/200">
-<img src="https://fakeimg.moyu.io/300/200?bg=000&color=fff">
-<img src="https://fakeimg.moyu.io/300?text=Hello&size=40">
+<img src="https://holder.moyu.io/300">
+<img src="https://holder.moyu.io/300/200">
+<img src="https://holder.moyu.io/300/200?bg=000&color=fff">
+<img src="https://holder.moyu.io/300?text=Hello&size=40">
 ```
 
 ## Set up your own server
